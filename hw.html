@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    <table border="1">
+    	<tr>About me -- 109306022</tr>
+    	<tr>
+    		<th rowspan="3">
+    			<img src="main.png" width="200" height="200">
+    		</th>
+    		<th colspan="2">
+    			<form>
+       		    <label for="name">Name:</label>
+       		    <input type="text" name="name">
+       		    </form>
+       		    <form>
+       		Gender:
+       		<input type="radio" id="gender1" name="gender1" value="male">
+       		<label for="gender1">Male</label>
+       		<input type="radio" id="gender2" name="gender2" value="female" checked>
+       		<label for="gender2">Female</label>
+       		<input type="radio" id="gender3" name="gender3" value="other">
+       		<label for="gender3">Other</label>
+       	       </form>
+            </th>
+    	</tr>
+    	<tr>
+    		<th><form>
+       	         	<label for="county">County:</label>
+       	         	<select name="county" id="county">
+       	         		<option value="tapei" selected>Tapei</option>
+       	         		<option value="taoyuan">Taoyuan</option>
+       	         		<option value="taichung">Taichung</option>
+       	         	</select>
+       	         </form></th>
+       	       	    <th><form>
+       		<label for="birthday">Birthday:</label>
+       		<input type="text" name="birthday">
+       	        </form></th>
+    	</tr>
+
+      <th colspan="2">
+          <form>
+              <label for="mail">E-mail:</label>
+              <input type="text" name="mail">
+              </form><th>
+    	</tr>
+        <tr>
+        	<th>Hobby</th>
+        	<th colspan="2">
+        		<form>
+       	        	<input type="checkbox" id="thing1" name="thing1" value="swim">
+       	        	<label for=thing1>Swimming</label>
+                    <input type="checkbox" id="thing2" name="thing2" value="volleyball">
+                    <label for=thing2>Volleyball</label>
+                    <input type="checkbox" id="thing3" name="thing3" value="movie" checked>
+       	        	<label for=thing3>Movies</label>
+       	        	<input type="checkbox" id="thing4" name="thing4" value="game">
+       	        	<label for=thing4>Games</label>
+       	        	<input type="checkbox" id="thing5" name="thing5" value="sleep" checked>
+       	        	<label for=thing5>Sleeping</label>
+       	        </form></th>
+        </tr>
+        <tr>
+        	<th>Skill</th>
+        	<th colspan="2">
+        		<form>
+       	        	<input type="checkbox" id="skill1" name="skill1" value="java" checked>
+       	        	<label for=skill1>Java</label>
+                    <input type="checkbox" id="skill2" name="skill2" value="html" checked>
+                    <label for=skill2>HTML</label>
+                    <input type="checkbox" id="skill3" name="skill3" value="python">
+       	        	<label for=skill>Python</label>
+       	        	<input type="checkbox" id="skill4" name="skill4" value="microsoft" checked>
+       	        	<label for=skill4>Microsoft Office</label>
+       	        	<input type="checkbox" id="skill5" name="skill5" value="adobe">
+       	        	<label for=skill5>Adobe Premiere</label>
+       	        </form></th>
+        </tr>
+        <tr>
+        	<th>Say Something</th>
+        	<th colspan="2"><form>
+       	        	<label for="comments"></label>
+       	        	<textarea id="comments" name="comments" rows="4" cols="60">
+Say something here.
+       	        	</textarea>
+       	        </form></th>
+        </tr>
+        <tr>
+        	<th colspan="3">
+        		<input type="submit" value="Submit">
+       	        <input type="reset" value="重設">
+       	    </th>
+        </tr>
+    </table>
+</body>
+</html>
